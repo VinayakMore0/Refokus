@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
-/* @import url("../src/assets/fonts/649d7ca1f5c7aa41f51eb483_satoshi-variable.ttf");
-
-body {
-  font-family: "Satoshi Variable, sans-serif";
-} */
+@font-face {
+  font-family: "Satoshi";
+  src: url(./assets/fonts/649d7ca1f5c7aa41f51eb483_satoshi-variable.ttf);
+}

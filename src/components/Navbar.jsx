@@ -8,6 +8,7 @@ function Navbar() {
         <img
           src="https://assets-global.website-files.com/6334198f239547d0f9cd84b3/63349803431f1562dccf1802_refokus%20logo.svg"
           alt="refokus logo"
+          className="cursor-pointer"
         />
         <div className="links flex gap-14 ml-20">
           {["Home", "Work", "Culture", "", "News"].map((elem, index) =>
@@ -16,7 +17,7 @@ function Navbar() {
             ) : (
               <a
                 key={index}
-                className="text-sm flex items-center gap-1"
+                className="text-sm flex items-center gap-1 cursor-pointer"
                 href="#"
               >
                 {index === 1 && (

@@ -11,36 +11,36 @@ function Footer() {
         </div>
         <div className="basis-1/2 flex gap-4">
           <div className="basis-1/3">
-            <h4 className="mb-10 text-zinc-500 capitalize">socials</h4>
-            {["instagram", "twitter (x?)", "LinkedIn"].map((item, index) => (
+            <h4 className="mb-8 text-zinc-400 capitalize">Socials</h4>
+            {["Instagram", "Twitter (X?)", "LinkedIn"].map((item, index) => (
               <a
                 href="#"
                 key={index}
-                className="block mt-2 capitalize text-zinc-600"
+                className="block mt-2 capitalize text-zinc-500"
               >
                 {item}
               </a>
             ))}
           </div>
           <div className="basis-1/3 ">
-            <h4 className="mb-10 text-zinc-500 capitalize">socials</h4>
-            {["instagram", "twitter (x?)", "LinkedIn"].map((item, index) => (
+            <h4 className="mb-8 text-zinc-400 capitalize">socials</h4>
+            {["Home", "Work", "Careers", "Contact"].map((item, index) => (
               <a
                 href="#"
                 key={index}
-                className="block mt-2 capitalize text-zinc-600"
+                className="block mt-2 capitalize text-zinc-300"
               >
                 {item}
               </a>
             ))}
           </div>
           <div className="basis-1/2 flex flex-col items-end">
-            <p className="text-right">
+            <p className="text-right mt-14">
               Refokus is a pioneering digital agency driven by design and
               empowered by technology.
             </p>
             <img
-              className="w-32 mt-10"
+              className="w-32 mt-5 cursor-pointer"
               src="https://assets-global.website-files.com/6334198f239547d0f9cd84b3/63455da11b54556c9d28aa3e_Badge-EnterprisePartner-Blue%201.svg"
               alt="footer"
             />
