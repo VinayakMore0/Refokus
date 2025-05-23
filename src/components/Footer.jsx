@@ -22,8 +22,8 @@ function Footer() {
               </a>
             ))}
           </div>
-          <div className="basis-1/3 ">
-            <h4 className="mb-8 text-zinc-400 capitalize">socials</h4>
+          <div className="basis-1/4 ">
+            <h4 className="mb-8 text-zinc-400 capitalize">Sitemap</h4>
             {["Home", "Work", "Careers", "Contact"].map((item, index) => (
               <a
                 href="#"
@@ -35,7 +35,7 @@ function Footer() {
             ))}
           </div>
           <div className="basis-1/2 flex flex-col items-end">
-            <p className="text-right mt-14">
+            <p className="text-right mt-15">
               Refokus is a pioneering digital agency driven by design and
               empowered by technology.
             </p>
